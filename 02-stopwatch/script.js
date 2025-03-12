@@ -6,6 +6,8 @@ const timeInput = document.getElementById('timeInput')
 
 let timeId;
 let newAllotTime;
+let timerFlag ;
+let startFlag = true;
 
 function countDown (time){
     timeId = setInterval(()=>{
@@ -23,14 +25,21 @@ function countDown (time){
 }
 
 startButton.addEventListener('click', ()=>{
-    let time = Number(timeInput.value);
-    countDown(time)
+    if(startFlag == true){
+        let time = Number(timeInput.value);
+        timerFlag = true
+        startFlag = false
+        countDown(time)
+    }
 })
 
 stopButton.addEventListener('click', function(){
+    timerFlag = false
     clearInterval(timeId)
 })
 
 resumeButton.addEventListener('click', ()=>{
-    countDown(newAllotTime)
+    timerFlag !== true ? countDown(newAllotTime) : ''
+
+    timerFlag = true
 })
