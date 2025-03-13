@@ -29,7 +29,7 @@ The primary goal of these projects is to:
 | 1 | clock-date | date & time | ⭐⭐ |
 | 2 | stopwatch | setTimeout , setInterval , clearTimeout , clearInterval| ⭐⭐ |
 | 3 | advanced-color-picker | window-object-navigator, bitwise XOR `^` operator, complementry-color | ⭐⭐⭐⭐ |
-| 4 | TBA | TBA | ⭐⭐ |
+| 4 | random-quote-generator | Map data structure, non-repeating algorithm, localStorage theme persistence | ⭐⭐ |
 | 5 | TBA | TBA | ⭐⭐⭐ |
 | 6 | TBA | TBA | ⭐⭐⭐ |
 | 7 | TBA | TBA | ⭐⭐⭐⭐ |
