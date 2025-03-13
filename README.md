@@ -26,9 +26,9 @@ The primary goal of these projects is to:
 
 | # | Project Name | Key Focus | Difficulty |
 |---|--------------|-----------|------------|
-| 1 | clock and date | date & time | ⭐⭐ |
+| 1 | clock-date | date & time | ⭐⭐ |
 | 2 | stopwatch | setTimeout , setInterval , clearTimeout , clearInterval| ⭐⭐ |
-| 3 | TBA | TBA | ⭐⭐⭐ |
+| 3 | advanced-color-picker | window-object-navigator, bitwise XOR `^` operator, complementry-color | ⭐⭐⭐⭐ |
 | 4 | TBA | TBA | ⭐⭐ |
 | 5 | TBA | TBA | ⭐⭐⭐ |
 | 6 | TBA | TBA | ⭐⭐⭐ |
