@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Advanced UI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child-container">
+            <div id="input-display"></div>
+            <div id="result-display">= </div>
+        </div>
+        <div id="operator-tool-box">
+            <div id="tool-box">
+                <div id="box-1" class="box-buttons">
+                    <button id="clear-input">AC</button>
+                    <button id="backspace">X</button>
+                    <button>/</button>
+                    <button>*</button>
+                </div>
+                <div id="box-2" class="box-buttons">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>-</button>
+                </div>
+                <div id="box-3" class="box-buttons">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>+</button>
+                </div>
+                <div id="box-4" class="box-buttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button class="remainder-operator">%</button>
+                </div>
+                <div id="box-5" class="box-buttons">
+                    <button>0</button>
+                    <button>.</button>
+                    <button>=</button>
+                    <button style="visibility: hidden;"></button>
+                </div>
+            </div>
+        </div>
+        <span id="remainer">&nbsp;</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
