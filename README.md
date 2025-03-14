@@ -30,7 +30,7 @@ The primary goal of these projects is to:
 | 2 | stopwatch | setTimeout , setInterval , clearTimeout , clearInterval| ⭐⭐ |
 | 3 | advanced-color-picker | window-object-navigator, bitwise XOR `^` operator, complementry-color | ⭐⭐⭐⭐ |
 | 4 | random-quote-generator | Map data structure, non-repeating algorithm, localStorage theme persistence | ⭐⭐ |
-| 5 | TBA | TBA | ⭐⭐⭐ |
+| 5 | dual-calculator-project | DOM manipulation, event delegation, real-time computation, expression evaluation | ⭐⭐⭐⭐ |
 | 6 | TBA | TBA | ⭐⭐⭐ |
 | 7 | TBA | TBA | ⭐⭐⭐⭐ |
 | 8 | TBA | TBA | ⭐⭐⭐ |
