@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google-font start-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google-font end-->
+
+    <title>Advanced UI Tip Calculator</title>
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <div class="container">
+        <div id="box-1">
+            <!-- Bill Amount -->
+            <div id="child-box-1">
+                <label for="billAmount">Bill</label>
+                    <br />
+                <input type="text" id="billAmount" placeholder="$"/>    
+            </div>
+
+            <!-- Select Tip -->
+            <div id="child-box-2">
+                <label for="inputTip">Select Tip %</label>
+                <br />
+                <div id="sub-child-box-1">
+                    <button class="customer-tip">5%</button>
+                    <button class="customer-tip">10%</button>
+                    <button class="customer-tip">15%</button>
+                </div>
+                <div id="sub-child-box-2">
+                    <button class="customer-tip">25%</button>
+                    <button class="customer-tip">50%</button>
+                    <input type="text" id="inputTip" >
+                </div>
+            </div>
+            <div id="child-box-3">
+                <label for="numberOfPeople">Number of people</label>
+                <br />
+                <input type="text" id="numberOfPeople" placeholder="0"/>
+            </div>
+        </div>
+        <div id="box-2">
+            <div id="totalTipAmount" class="ibm-plex-mono-medium">
+                <p id="totalAmountPara" >Tip Amount <br /><span class="personPara">/ total</span></p>
+                <p id="totalAmount">$0.00</p>
+            </div>
+            <div id="eachTipAmount"  class="ibm-plex-mono-medium">
+                <p id="eachPersonAmount">Tip Amount  <br /><span class="personPara">/ person</span></p>
+                <p id="eachAmount">$0.00</p>
+            </div>
+            <button id="submit">Click</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

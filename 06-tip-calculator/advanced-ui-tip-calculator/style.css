@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    background-color: #C4E4E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    /* width: 800px; */
+    height: 460px;
+}
+
+#box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    padding: 40px 30px;
+}
+
+#box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 10px;
+    border-radius: 15px;
+    background-color: #00464D;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#child-box-1{
+    width: 100%;
+}
+#child-box-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+#child-box-3{}
+
+#sub-child-box-1{
+    display: flex;
+    flex-direction: column0;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+#sub-child-box-2{
+    display: flex;
+    flex-direction: column0;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#inputTip{
+    width: 100px;
+    height: 40px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+
+#totalTipAmount{
+    display:  flex;
+    gap: 150px;
+}
+#eachTipAmount{
+    display: flex;
+    gap: 150px;
+}
+
+#resetButton{
+    width: 300px;
+    padding: 12px;
+    background-color: #9FE8DF;
+    border: none;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: grab;
+}
+
+#submit{
+    width: 300px;
+    padding: 12px;
+    background-color: #9FE8DF;
+    border: none;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: grab;
+    margin-top: 100px;
+}
+
+.ibm-plex-mono-medium {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#eachAmount, #totalAmount{
+    font-size: 35px;
+    color: #22C5AE;
+    font-weight: bolder;
+}
+
+.personPara{
+    font-size: 12px;
+    color: #c4e4e76a;
+}
+
+#billAmount{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #22C5AE;
+    text-align: right;
+    padding-inline: 3px;
+    font-size: 30px;
+    color: #00474B;
+}
+
+#billAmount:focus{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #22C5AE;
+    outline: none;
+}
+  
+input::placeholder {
+    text-align: left;
+    direction: ltr; 
+}
+
+.customer-tip{
+    background: #00464D;
+    color: #ffffff;
+    border-style: none;
+}
+#inputTip{
+    outline: none;
+    border-style: none;
+    border: 1px solid #22C5AE;
+    text-align: right;
+    padding-inline: 12px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #00474B;
+    border-radius: 5px;
+}
+#numberOfPeople{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #22C5AE;
+    text-align: right;
+    padding-inline: 3px;
+    font-size: 30px;
+    color: #00474B;
+}
+
+#billAmount:focus{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #22C5AE;
+    outline: none;
+}
+  
+input::placeholder {
+    text-align: left;
+    direction: ltr; 
+}
+
+
+#numberOfPeople::placeholder{
+    text-align: right;
+}
