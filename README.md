@@ -32,7 +32,7 @@ The primary goal of these projects is to:
 | 4 | random-quote-generator | Map data structure, non-repeating algorithm, localStorage theme persistence | ⭐⭐ |
 | 5 | dual-calculator-project | DOM manipulation, event delegation, real-time computation, expression evaluation | ⭐⭐⭐⭐ |
 | 6 | tip-calculator | Calculation Logic, Input validation, UI design principles | ⭐ |
-| 7 | TBA | TBA | ⭐⭐⭐⭐ |
+| 7 | palindrome-checker | Regular expressions, string manipulation, text processing | ⭐ |
 | 8 | TBA | TBA | ⭐⭐⭐ |
 | 9 | TBA | TBA | ⭐⭐⭐⭐ |
 | 10 | TBA | TBA | ⭐⭐⭐⭐⭐ |
