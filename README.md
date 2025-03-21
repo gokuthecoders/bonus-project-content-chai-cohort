@@ -33,9 +33,9 @@ The primary goal of these projects is to:
 | 5 | dual-calculator-project | DOM manipulation, event delegation, real-time computation, expression evaluation | ⭐⭐⭐⭐ |
 | 6 | tip-calculator | Calculation Logic, Input validation, UI design principles | ⭐ |
 | 7 | palindrome-checker | Regular expressions, string manipulation, text processing | ⭐ |
-| 8 | TBA | TBA | ⭐⭐⭐ |
-| 9 | TBA | TBA | ⭐⭐⭐⭐ |
-| 10 | TBA | TBA | ⭐⭐⭐⭐⭐ |
+| 8 | Character Counter | Text analysis & DOM manipulation, RegEx, object manipulation for word counting | ⭐ |
+| 9 | Background Image and Color Changer | DOM Manipulation & Randomization, event handling, style property manipulation | ⭐ |
+| 10 | Dice Roller Simulator | DOM Manipulation & UTF-16 Encoding, randomization, Unicode character usage | ⭐⭐⭐⭐⭐ |
 
 ## 🧠 Learning Approach
 
