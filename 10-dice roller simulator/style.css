@@ -1,0 +1,88 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Container styling */
+#simulator-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Title styling */
+.simulator-title {
+    color: #3a3a3a;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* Dice display styling */
+.dice-face {
+    font-size: 6rem;
+    margin: 1.5rem 0;
+    transition: transform 0.3s ease;
+    user-select: none;
+}
+
+.dice-face:hover {
+    transform: rotate(15deg);
+}
+
+/* Button styling */
+.roll-action-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 1rem;
+}
+
+.roll-action-button:hover {
+    background-color: #3e8e41;
+    transform: translateY(-2px);
+}
+
+.roll-action-button:active {
+    transform: translateY(1px);
+}
+
+/* Result text styling */
+.result-text {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+/* Animation for dice roll */
+@keyframes rollDice {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.rolling {
+    animation: rollDice 0.5s ease;
+}
